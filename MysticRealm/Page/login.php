@@ -42,12 +42,17 @@ if (filter_input(INPUT_POST,
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-danger" type="submit" name="belepesiAdatok" value="true">Login</button>
+                    <button class="btn button-style w-50" type="submit" name="belepesiAdatok" value="true">Login</button>
                   </div>
 
                   <div class="d-flex align-items-center justify-content-center pb-4">
                     <p class="mb-0 me-2">Don't have an account?</p>
-                    <a href="index.php?loginswitch=register" class="btn btn-outline-danger">Create new</a>
+                    <a href="index.php?loginswitch=register" class="btn btn-outline-primary">Create new</a>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-center">
+                    <a href="#"><i class="fa-brands fa-square-facebook fa-bounce icon-font"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-bounce icon-font p-2" style="color: #d5ab10;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fa-bounce icon-font" style="color: #7a95ff;"></i></a>
                   </div>
 
                 </form>

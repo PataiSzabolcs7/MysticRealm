@@ -69,12 +69,12 @@ if (filter_input(INPUT_POST, "regisztraciosAdatok", FILTER_VALIDATE_BOOLEAN, FIL
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-danger" type="submit" name="regisztraciosAdatok" value="true">Registration</button>
+                    <button class="btn btn-primary button-style w-50" type="submit" name="regisztraciosAdatok" value="true">Registration</button>
                   </div>
 
                   <div class="d-flex align-items-center justify-content-center pb-4">
                     <p class="mb-0 me-2">Already had account?</p>
-                    <a href="index.php?login_register_switch=logins" class="btn btn-outline-danger">Logins</a>
+                    <a href="index.php?login_register_switch=logins" class="btn btn-outline-primary">Logins</a>
                   </div>
 
                 </form>

@@ -1,12 +1,12 @@
 <?php
     switch($navbardswitch){
-        case'home':
-            require_once './index.php';
-            break;
         case 'lore':
             require_once './Page/item.php';
             break;
-        case 'item':
+        case 'game':
+            require_once './Page/item.php';
+            break;
+        case 'items':
             require_once './Page/item.php';
             break;
         case 'monster':
@@ -18,4 +18,9 @@
         case 'logout':
             require_once './Page/logout.php';
             break;
+        case 'home':
+            require_once './Layout/home.php';
+            break;
+        default:
+        require_once './Layout/home.php';
     }

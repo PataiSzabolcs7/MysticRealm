@@ -3,20 +3,37 @@
 background: #fccb90;
 
 /* Chrome 10-25, Safari 5.1-6 */
-background: -webkit-linear-gradient(to right, black,red,black);
+background: -webkit-linear-gradient(to bottom,#a5aed9,#818dca,#5e6dbb,#4453a1,#35417e);
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right,black,red,black);
+background: linear-gradient(to right,#a5aed9,#818dca,#5e6dbb,#4453a1,#35417e);
 }
 
+
 @media (min-width: 768px) {
-.gradient-form {
-height: 100vh !important;
-}
+    .gradient-form {
+    height: 100vh !important;
+    }
 }
 @media (min-width: 769px) {
-.gradient-custom-2 {
-border-top-right-radius: .3rem;
-border-bottom-right-radius: .3rem;
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
 }
+.icon-font{
+    font-size:35px;
+}
+.button-style{
+    color: white;
+    background: #fccb90;
+
+
+    background: -webkit-linear-gradient(to right,#7888d4,#5166c7,#384cae,#2b3b87);
+
+
+    background: linear-gradient(to right,#7888d4,#5166c7,#384cae,#2b3b87);
+}
+.button-style:hover{
+    background: -webkit-linear-gradient(to right,#384cae,#2b3b87)
 }
