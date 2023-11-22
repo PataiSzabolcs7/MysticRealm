@@ -1,11 +1,16 @@
+
 .fantasyfamily{
     font-family:fantasy;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+    font-size: 60px;
 }
 .pfamily{
     font-family: cursive;
     font-style: italic;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 .h1colors{
     color:#4453a1;

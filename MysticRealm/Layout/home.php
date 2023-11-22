@@ -3,8 +3,8 @@
     <div class="carousel-item active">
       <img src="./img/thirdlabel.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h1 class="h1colors fantasyfamily">Start your adventure today</h1>
-        <p class="pfamily">Fight with many enemys and save the princess!</p>
+        <h1 class="h1colors fantasyfamily">Become the strongest Human</h1>
+        <p class="pfamily">This path full of pain and danger. Never give up!</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -15,10 +15,10 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./img/thirdlabel.png" class="d-block w-100" alt="...">
+      <img src="./img/firstlabel.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h1 class="h1colors fantasyfamily">Become the strongest Human</h1>
-        <p class="pfamily">This path full of pain and danger. Never give up!</p>
+        <h1 class="h1colors fantasyfamily">Start your adventure today</h1>
+        <p class="pfamily">Fight with many enemys and save the princess!</p>
       </div>
     </div>
   </div>
