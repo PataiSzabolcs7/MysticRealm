@@ -1,14 +1,13 @@
-
 .fantasyfamily{
     font-family:fantasy;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    font-size: 60px;
+    font-size: 25px;
 }
 .pfamily{
     font-family: cursive;
     font-style: italic;
-    font-size: 30px;
+    font-size: 10px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }

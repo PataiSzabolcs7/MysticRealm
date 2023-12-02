@@ -19,8 +19,7 @@ $login_register = filter_input(INPUT_GET, "loginswitch");
         require_once './Layout/nav.php';
         require_once './Layout/navbarswitch.php';
         require_once './Layout/footer.php';
-    }else{
-        //require_once './Page/login.php';
+    } else {
         require_once './Page/loginswitch.php';
     }
     ?>
