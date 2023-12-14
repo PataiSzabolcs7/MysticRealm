@@ -23,21 +23,24 @@
     </div>
   </div>
 </div>
-<section class="py-3 py-md-5 py-xl-8">
+
+
+<section class="py-3 py-md-5 py-xl-8 bgcolor-1">
 <div class="section-header">
-  <h2>About Us</h2>
+  <h2 class="fw-bold fst-italic">About Us</h2>
+  <hr class="hr1">
 </div>
   <div class="container">
     <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
       <div class="col-12 col-lg-6 col-xl-5">
-        <img class="img-fluid rounded" loading="lazy" src="./Img/team-1.jpg" alt="">
+        <img class="img-fluid rounded" loading="lazy" src="./Img/working.jpg" alt="">
       </div>
       <div class="col-12 col-lg-6 col-xl-7">
         <div class="row justify-content-xl-center">
           <div class="col-12 col-xl-11">
             <h2 class="h1 mb-3">Who Are We?</h2>
-            <p class="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p>
-            <p class="mb-5">Nullam gravida orci ac luctus molestie. Fusce finibus congue erat, non aliquam magna tincidunt at. Aenean lacinia arcu ex, sed pharetra nibh porta a. Curabitur vel consequat nibh, ac interdum nisl. Nunc pulvinar nec massa vitae sollicitudin.</p>
+            <p class="lead fs-4 text-secondary mb-3">We are a small company that develop games and webs, where creativity meets cutting-edge technology in the realm of gaming!</p>
+            <p class="mb-5">At MysticRealm Studio, we pride ourselves on pushing the boundaries of imagination and technology. From captivating storylines to immersive gameplay, our diverse portfolio spans across genres, ensuring a game for every player. Our commitment to quality and innovation has garnered accolades, with several titles earning critical acclaim and a devoted fan base.</p>
             <div class="row gy-4 gy-md-0 gx-xxl-5X">
               <div class="col-12 col-md-6">
                 <div class="d-flex">
@@ -47,8 +50,8 @@
                     </svg>
                   </div>
                   <div>
-                    <h4 class="mb-3">Versatile Brand</h4>
-                    <p class="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                    <h4 class="mb-3">Republic</h4>
+                    <p class="text-secondary mb-0">We are bring back the old time gaming feeling.</p>
                   </div>
                 </div>
               </div>
@@ -60,8 +63,8 @@
                     </svg>
                   </div>
                   <div>
-                    <h4 class="mb-3">Digital Agency</h4>
-                    <p class="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
+                    <h4 class="mb-3">Ideas</h4>
+                    <p class="text-secondary mb-0">We believe in the old times by merging primary with elaborate ideas.</p>
                   </div>
                 </div>
               </div>
@@ -70,5 +73,69 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section>
+  <div class="container-xxl py-5">
+          <div class="container">
+              <div class="text-center mx-auto mb-5 wow fadeInUp">
+                  <h1 class="display-6 mb-5 fw-bold fst-italic">Meet Our Teams</h1>
+                  <hr class=hr2>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                      <div class="team-item position-relative rounded overflow-hidden">
+                          <div class="overflow-hidden">
+                              <img class="rounded mx-auto d-block" src="./Img/team-1.jpg" alt="">
+                          </div>
+                          <div class="team-text bg-light text-center p-4">
+                              <h5>Patai Szabolcs Lajos</h5>
+                              <p class="text-primary">Web Desinger</p>
+                              <hr class=hr2>
+                              <div class="team-social text-center">
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-square-facebook icon-font"></i></a>
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-instagram icon-font"></i></a>
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-x-twitter icon-font"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                      <div class="team-item position-relative rounded overflow-hidden">
+                          <div class="overflow-hidden">
+                              <img class=" img-fluid rounded mx-auto d-block" src="./Img/team-1.jpg" alt="">
+                          </div>
+                          <div class="team-text bg-light text-center p-4">
+                              <h5>Szilágyi Zsolt</h5>
+                              <p class="text-primary">Game Developers</p>
+                              <hr class=hr2>
+                              <div class="team-social text-center">
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-square-facebook  icon-font " ></i></a>
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-instagram icon-font"></i></a>
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-x-twitter icon-font"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                      <div class="team-item position-relative rounded overflow-hidden">
+                          <div class="overflow-hidden">
+                              <img class="rounded mx-auto d-block" src="./Img/team-1.jpg" alt="">
+                          </div>
+                          <div class="team-text bg-light text-center p-4">
+                              <h5>Máté Patrik</h5>
+                              <p class="text-primary">Game Developers</p>
+                              <hr class=hr2>
+                              <div class="team-social text-center">
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-square-facebook  icon-font"></i></a>
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-instagram icon-font"></i></a>
+                                  <a class="btn btn-square" href=""><i class="fa-brands fa-x-twitter icon-font"></i></a>
+                            </div>
+                       </div>
+                  </div>
+               </div>
+          </div>
+      </div>
   </div>
 </section>

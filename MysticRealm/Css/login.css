@@ -1,6 +1,6 @@
 .gradient-custom-2 {
 
-background: #fccb90;
+background: #90b2fc;
 
 
 background: -webkit-linear-gradient(to bottom,#a5aed9,#818dca,#5e6dbb,#4453a1,#35417e);
@@ -26,7 +26,7 @@ background: linear-gradient(to right,#a5aed9,#818dca,#5e6dbb,#4453a1,#35417e);
 }
 .button-style{
     color: white;
-    background: #fccb90;
+    background: #90b2fc;
 
 
     background: -webkit-linear-gradient(to right,#7888d4,#5166c7,#384cae,#2b3b87);

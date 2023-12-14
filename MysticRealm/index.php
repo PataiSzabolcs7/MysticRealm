@@ -2,7 +2,7 @@
 header('Content-Type: text/html; charset=utf-8');
 session_start(); //-- munkamenet adatinak tárolására $_SESSION[]
 require_once './Classes/Userbase.php';
-$db = new Userbase("localhost", "root", "", "mystic realm");
+$db = new Userbase("localhost", "root", "", "gamedatabase");
 
 if (!isset($_SESSION['login'])){$_SESSION['login'] = false;}
 
@@ -23,6 +23,5 @@ $login_register = filter_input(INPUT_GET, "loginswitch");
         require_once './Page/loginswitch.php';
     }
     ?>
-    
 </body>
 </html>

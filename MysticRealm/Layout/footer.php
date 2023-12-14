@@ -31,10 +31,10 @@
 
           <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
             <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
-                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-square-facebook"></i>
             </a>
             <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-x-twitter"></i>
             </a>
             <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
                 <i class="fa-brands fa-discord"></i>

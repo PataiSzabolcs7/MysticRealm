@@ -12,6 +12,42 @@
 .h1colors{
     color:#4453a1;
 }
+.bgcolor-1{
+  background-color: #f9f9f9;
+}
+.hr1{
+  width:5%;
+ margin: auto;
+  color: rgb(0, 0, 255);
+  border: 2px solid
+}
+.hr2{
+  width:15%;
+ margin: auto;
+  color: rgb(0, 0, 255);
+  border: 2px solid
+}
+.fa-instagram{
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-square-facebook{
+  color: #7a95ff;
+}
+.fa-x-twitter{
+  color: black;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.fa-discord{
+color:#818dca;
+}
+
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -43,3 +79,48 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# Teams
+--------------------------------------------------------------*/
+
+.team-item img {
+  position: relative;
+  top: 0;
+  transition: .5s;
+}
+
+.team-item:hover img {
+  top: -30px;
+}
+
+.team-item .team-text {
+  position: relative;
+  height: 100px;
+  transition: .5s;
+}
+
+.team-item:hover .team-text {
+  margin-top: -60px;
+  height: 160px;
+}
+
+.team-item .team-text .team-social {
+  opacity: 0;
+  transition: .5s;
+}
+
+.team-item:hover .team-text .team-social {
+  opacity: 1;
+}
+
+.team-item .team-social .btn {
+  display: inline-flex;
+  color: var(--primary);
+  background: #f9f9f9;
+  border-radius: 40px;
+}
+
+.team-item .team-social .btn:hover {
+  color: #FFFFFF;
+  background: #f9f9f9;
+}

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2023. Okt 23. 15:02
+-- Létrehozás ideje: 2023. Dec 14. 07:57
 -- Kiszolgáló verziója: 10.4.28-MariaDB
 -- PHP verzió: 8.2.4
 
@@ -18,10 +18,9 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Adatbázis: `mystic realm`
+-- Adatbázis: `gamedatabase`
 --
-CREATE DATABASE IF NOT EXISTS `mystic realm` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `mystic realm`;
+
 -- --------------------------------------------------------
 
 --

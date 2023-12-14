@@ -35,6 +35,7 @@ class Userbase {
             } else {
                 $_SESSION['username'] = '';
                 $_SESSION['login'] = false;
+                
             }
             
             $result->free_result();
