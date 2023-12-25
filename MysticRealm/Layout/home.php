@@ -139,3 +139,75 @@
       </div>
   </div>
 </section>
+
+<section class="py-5 bgcolor-1">
+    <div class="container px-5 my-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+                <div class="text-center">
+                    <h2 class="fw-bolder">News</h2>
+                    <hr class="hr2">
+                    <p class="lead fw-normal text-muted mb-5">Fresh and new news about the progress in the company</p>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-4 mb-5">
+                <div class="card zoom h-100 shadow border-0">
+                    <img class=" card-img-top" src="./Img/beta-test.jpg" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                        <h5 class="card-title mb-3">Beta test</h5>
+                        <p class="card-text mb-0">March 2, beta test open! The participants will receive special gifts.</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="small">
+                                    <div class="text-muted">March 1, 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card zoom h-100 shadow border-0">
+                    <img class=" card-img-top" src="./Img/maintance.jpg" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                        <h5 class="card-title mb-3">Maintance</h5>
+                        <p class="card-text mb-0">Maintenance from March 24 to 25! The servers will be unavailable during this time! Sorry for the inconvenience.</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="small">
+                                    <div class="text-muted">March 23, 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card zoom h-100 shadow border-0">
+                    <img class=" card-img-top" src="./Img/working2.jpg" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                        <h5 class="card-title mb-3">We are looking for a game development employee</h5>
+                        <p class="card-text mb-0">Do you have experience, do you love game development and do you want to work in a good work environment? Then contact us!</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="small">
+                                    <div class="text-muted">April 2, 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

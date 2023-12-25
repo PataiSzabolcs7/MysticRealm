@@ -42,7 +42,7 @@ if (filter_input(INPUT_POST,
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn button-style w-50" type="submit" name="belepesiAdatok" value="true">Login</button>
+                    <button class="btn btn-outline-primary w-50" type="submit" name="belepesiAdatok" value="true">Login</button>
                   </div>
 
                   <div class="d-flex align-items-center justify-content-center pb-4">
@@ -51,8 +51,8 @@ if (filter_input(INPUT_POST,
                   </div>
                   <div class="d-flex align-items-center justify-content-center">
                     <a href="#"><i class="fa-brands fa-square-facebook fa-bounce icon-font"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram fa-bounce icon-font p-2" style="color: #d5ab10;"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter fa-bounce icon-font" style="color: #7a95ff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-bounce icon-font p-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter fa-bounce icon-font" ></i></a>
                   </div>
 
                 </form>
