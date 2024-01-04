@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg bg-body-tertiary nav-bg-color" data-bs-theme="dark">
     <div class="container-fluid">
         <img src="./img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block ">
         <a class="navbar-brand" href="#">Mystic Realm</a>
@@ -36,7 +36,7 @@
                     <li class="nav-item">
                     <a class="nav-link' . ($navbardswitch == 'logout' ? ' active' : ''). '"aria-current="page" href="index.php?nav=logout">Logout</a>
                     </li>';
-                ?>;
+                ?>
             </ul>
         </div>
     </div>

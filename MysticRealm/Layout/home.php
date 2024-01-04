@@ -24,12 +24,83 @@
   </div>
 </div>
 
+<section class="py-5">
+    <div class="container px-5 my-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+                <div class="text-center">
+                    <h2 class="fw-bolder">News</h2>
+                    <hr class="hr2">
+                    <p class="lead fw-normal text-muted mb-5">Fresh and new news about the progress in the company</p>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-4 mb-5">
+                <div class="card zoom h-100 shadow border-0">
+                    <img class=" card-img-top" src="./Img/beta-test.jpg" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                        <h5 class="card-title mb-3">Beta test</h5>
+                        <p class="card-text mb-0">March 2, beta test open! The participants will receive special gifts.</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="small">
+                                    <div class="text-muted">March 1, 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card zoom h-100 shadow border-0">
+                    <img class=" card-img-top" src="./Img/maintance.jpg" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                        <h5 class="card-title mb-3">Maintance</h5>
+                        <p class="card-text mb-0">Maintenance from March 24 to 25! The servers will be unavailable during this time! Sorry for the inconvenience.</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="small">
+                                    <div class="text-muted">March 23, 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card zoom h-100 shadow border-0">
+                    <img class=" card-img-top" src="./Img/working2.jpg" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                        <h5 class="card-title mb-3">We are looking for a game development employee</h5>
+                        <p class="card-text mb-0">Do you have experience, do you love game development and do you want to work in a good work environment? Then contact us!</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="small">
+                                    <div class="text-muted">April 2, 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
 
 <section class="py-3 py-md-5 py-xl-8 bgcolor-1">
-<div class="section-header">
-  <h2 class="fw-bold fst-italic">About Us</h2>
-  <hr class="hr1">
-</div>
+  <div class="section-header">
+    <h2 class="fw-bold fst-italic">About Us</h2>
+    <hr class="hr1">
+  </div>
   <div class="container">
     <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
       <div class="col-12 col-lg-6 col-xl-5">
@@ -140,74 +211,73 @@
   </div>
 </section>
 
-<section class="py-5 bgcolor-1">
-    <div class="container px-5 my-5">
-        <div class="row gx-5 justify-content-center">
-            <div class="col-lg-8 col-xl-6">
-                <div class="text-center">
-                    <h2 class="fw-bolder">News</h2>
-                    <hr class="hr2">
-                    <p class="lead fw-normal text-muted mb-5">Fresh and new news about the progress in the company</p>
-                </div>
-            </div>
+<section id="faq" class="faq section-bg bgcolor-1">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h1>F.A.Q</h1>
+          <p>Frequently Asked Questions</p>
+          <hr class="hr1">
         </div>
-        <div class="row ">
-            <div class="col-lg-4 mb-5">
-                <div class="card zoom h-100 shadow border-0">
-                    <img class=" card-img-top" src="./Img/beta-test.jpg" alt="..." />
-                    <div class="card-body p-4">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                        <h5 class="card-title mb-3">Beta test</h5>
-                        <p class="card-text mb-0">March 2, beta test open! The participants will receive special gifts.</p>
-                    </div>
-                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                        <div class="d-flex align-items-end justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <div class="small">
-                                    <div class="text-muted">March 1, 2023</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+        <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What type of feedback did you seek in beta testing, and how much does that affect the final shape of the game? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              In beta testing, we actively seek a diverse range of feedback from players to assess various aspects of the game. This includes feedback on gameplay mechanics, overall user experience, potential bugs or glitches, balancing issues, and suggestions for improvements. The goal is to identify any areas that may require refinement or enhancement before the game's official release.
+              </p>
             </div>
-            <div class="col-lg-4 mb-5">
-                <div class="card zoom h-100 shadow border-0">
-                    <img class=" card-img-top" src="./Img/maintance.jpg" alt="..." />
-                    <div class="card-body p-4">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                        <h5 class="card-title mb-3">Maintance</h5>
-                        <p class="card-text mb-0">Maintenance from March 24 to 25! The servers will be unavailable during this time! Sorry for the inconvenience.</p>
-                    </div>
-                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                        <div class="d-flex align-items-end justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <div class="small">
-                                    <div class="text-muted">March 23, 2023</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">What platforms do you plan to develop your games for? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Our current development plans involve creating games for a variety of platforms to reach a diverse audience. We are actively working on game titles for PC.
+              </p>
             </div>
-            <div class="col-lg-4 mb-5">
-                <div class="card zoom h-100 shadow border-0">
-                    <img class=" card-img-top" src="./Img/working2.jpg" alt="..." />
-                    <div class="card-body p-4">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                        <h5 class="card-title mb-3">We are looking for a game development employee</h5>
-                        <p class="card-text mb-0">Do you have experience, do you love game development and do you want to work in a good work environment? Then contact us!</p>
-                    </div>
-                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                        <div class="d-flex align-items-end justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <div class="small">
-                                    <div class="text-muted">April 2, 2023</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What tools do you use during game development? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              During game development, we employ a combination of industry-standard tools and specialized software to facilitate the various aspects of the development process.
+              </p>
             </div>
-        </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you interact with the player community? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Interacting with the player community is a crucial aspect of our game development process, and we employ various strategies to foster engagement and build a positive relationship with players. 
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">How do you handle user feedback and game updates? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              Handling user feedback and implementing game updates is a dynamic and iterative process that involves careful consideration and collaboration within the development team. 
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What games are you currently working on and what is the latest project you are working on? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+              The Mystic Realm is a project we are currently working on. It poses an exciting development challenge, and we hope that the game will deliver an outstanding and enjoyable experience for players. Through this current project, we continually monitor and assess player feedback to optimize the gaming experience and enhance the overall quality of Mystic Realm.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
 </section>
+
