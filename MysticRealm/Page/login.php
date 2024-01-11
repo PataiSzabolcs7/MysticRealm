@@ -3,23 +3,31 @@ if (filter_input(INPUT_POST,
                 'belepesiAdatok',
                 FILTER_VALIDATE_BOOLEAN,
                 FILTER_NULL_ON_FAILURE)) {
-    //-- A kapott adatok feldolgozása required   
+    //-- A kapott adatok feldolgozása required  
+    $error = false;
+    $errormessage = ""; 
     $username = htmlspecialchars(filter_input(INPUT_POST, 'username'));
     $password = htmlspecialchars(filter_input(INPUT_POST, 'InputPassword'));
+    if ($username == null ) {
+      $error = true;
+      $errormessage .= '<p>Nem megfelelő felhasználónév!</p>';
+  } else if ($password== null) {
+      $error = true;
+      $errormessage .= '<p>Nem megfelelő Jelszó</p>';
+  }
+  if ($error) {
+      echo $errormessage;
+  } else if($db->login($username, $password)) {
+    $_SESSION['login'] = true;
 
-    if ($db->login($username, $password)) {
-        
-        $_SESSION['login'] = true;
-    }else{
-      echo'Helytelen felhasználónév/jelszó';
-    }
+  }
 }
 ?>
 <section class="h-100 gradient-form bg-login-img">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-xl-10">
-        <div class="card rounded-3 text-black">
+      <div class="col-xl-10 rounded">
+        <div class="card border border-0 rounded text-black">
           <div class="row g-0">
             <div class="col-lg-6">
               <div class="card-body p-md-5 mx-md-4">

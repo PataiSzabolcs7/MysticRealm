@@ -24,14 +24,14 @@
   </div>
 </div>
 
-<section class="py-5">
+<section class="py-5 ">
     <div class="container px-5 my-5">
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-8 col-xl-6">
                 <div class="text-center">
                     <h2 class="fw-bolder">News</h2>
                     <hr class="hr2">
-                    <p class="lead fw-normal text-muted mb-5">Fresh and new news about the progress in the company</p>
+                    <p class="lead fw-normal text-muted mb-5">Fresh and new news about the progress in the company </p>
                 </div>
             </div>
         </div>
@@ -43,6 +43,7 @@
                         <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                         <h5 class="card-title mb-3">Beta test</h5>
                         <p class="card-text mb-0">March 2, beta test open! The participants will receive special gifts.</p>
+                        
                     </div>
                     <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                         <div class="d-flex align-items-end justify-content-between">
@@ -96,6 +97,21 @@
         </div>
 </section>
 
+<section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h3>Call To Action</h3>
+            <hr class="hr1">
+            <p class="pt-3">You are ready my lord? If yes then you can start your journey here!</p>
+            <a class="cta-btn" href="#">Download</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
 <section class="py-3 py-md-5 py-xl-8 bgcolor-1">
   <div class="section-header">
     <h2 class="fw-bold fst-italic">About Us</h2>
@@ -147,7 +163,7 @@
   </div>
 </section>
 
-<section>
+<section class="background-guard">
   <div class="container-xxl py-5">
           <div class="container">
               <div class="text-center mx-auto mb-5 wow fadeInUp">

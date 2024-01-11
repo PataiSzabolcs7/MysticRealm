@@ -32,6 +32,7 @@ class Userbase {
                 
                 $_SESSION['username'] = $row['name'];
                 $_SESSION['login'] = true;
+                
             } else {
                 $_SESSION['username'] = '';
                 $_SESSION['login'] = false;

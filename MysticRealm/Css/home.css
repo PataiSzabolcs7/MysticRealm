@@ -60,7 +60,51 @@
 .fa-discord{
 color:#818dca;
 }
+/*--------------------------------------------------------------
+# Call To Action Section
+--------------------------------------------------------------*/
+.call-to-action {
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../Img/action.jpg") center center;
+  background-size: cover;
+  padding: 100px 0;
+}
 
+@media (min-width: 1365px) {
+  .call-to-action {
+    background-attachment: fixed;
+  }
+}
+
+.call-to-action h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.call-to-action p {
+  color: #fff;
+  font-style: italic;
+}
+
+.call-to-action .cta-btn {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 10px;
+  text-decoration: none;
+  border: 2px solid #426ee9;
+  color: #fff;
+}
+
+.call-to-action .cta-btn:hover {
+  background: blue;
+  border: 2px solid blue;
+}
 
 /*--------------------------------------------------------------
 # Sections & Section Header
@@ -137,6 +181,10 @@ section {
 .team-item .team-social .btn:hover {
   color: #FFFFFF;
   background: #f9f9f9;
+}
+.background-guard{
+  background-image: url(../Img/guard.png);
+ background-repeat: no-repeat;
 }
 /*--------------------------------------------------------------
 # News
