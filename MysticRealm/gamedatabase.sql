@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2024. Jan 04. 11:37
+-- Létrehozás ideje: 2024. Jan 12. 08:25
 -- Kiszolgáló verziója: 10.4.28-MariaDB
 -- PHP verzió: 8.2.4
 
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `users` (
   `userid` int(10) UNSIGNED NOT NULL,
   `username` varchar(200) NOT NULL,
-  `password` int(100) NOT NULL,
+  `password` varchar(150) NOT NULL,
   `email` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -39,7 +39,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userid`, `username`, `password`, `email`) VALUES
-(1, 'Én122', 1234, 'zoli@gmail.com');
+(3, 'Én122', '$2y$10$onWpZkzCc4WbHlQ6NbBXTuyA0DDWS3D9GDPmWsNP4vCy1DPer7r3y', 'zoli@gmail.com');
 
 --
 -- Indexek a kiírt táblákhoz
@@ -61,7 +61,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT a táblához `users`
 --
 ALTER TABLE `users`
-  MODIFY `userid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `userid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
