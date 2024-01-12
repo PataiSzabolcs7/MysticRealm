@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2024. Jan 12. 08:25
+-- Létrehozás ideje: 2024. Jan 12. 12:43
 -- Kiszolgáló verziója: 10.4.28-MariaDB
 -- PHP verzió: 8.2.4
 
@@ -39,7 +39,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userid`, `username`, `password`, `email`) VALUES
-(3, 'Én122', '$2y$10$onWpZkzCc4WbHlQ6NbBXTuyA0DDWS3D9GDPmWsNP4vCy1DPer7r3y', 'zoli@gmail.com');
+(3, 'Én122', '$2y$10$onWpZkzCc4WbHlQ6NbBXTuyA0DDWS3D9GDPmWsNP4vCy1DPer7r3y', 'zoli@gmail.com'),
+(4, 'Admin', '$2y$10$jZpjrVwQ2B6KNNem9p9rbuv9yw3UUJviUc1r597Rd9yGQYyVhnfIq', 'admin@gmail.com');
 
 --
 -- Indexek a kiírt táblákhoz
@@ -61,7 +62,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT a táblához `users`
 --
 ALTER TABLE `users`
-  MODIFY `userid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `userid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
