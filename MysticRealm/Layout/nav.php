@@ -1,11 +1,11 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bg-color" data-bs-theme="dark">
     <div class="container-fluid">
-        <img src="./img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block ">
-        <a class="navbar-brand" href="#">Mystic Realm</a>
+        <img src="./img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block mb-2 ">
+        <a class="navbar-brand mb-2" href="#">Mystic Realm</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <?php
                     echo '<li class="nav-item">
@@ -33,8 +33,15 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link' . ($navbardswitch == 'logout' ? ' active' : ''). '"aria-current="page" href="index.php?nav=logout">Logout</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./Img/32x32icon.png" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="nav-link' . ($navbardswitch == 'logout' ? ' active' : ''). '"aria-current="page" href="index.php?nav=logout">Logout</a>
+                            </li>
+                        </ul>
                     </li>';
                 ?>
             </ul>

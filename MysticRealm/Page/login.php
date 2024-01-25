@@ -8,7 +8,7 @@ if (filter_input(INPUT_POST,
     $errormessage = ""; 
     $username = htmlspecialchars(filter_input(INPUT_POST, 'username'));
     $password = htmlspecialchars(filter_input(INPUT_POST, 'InputPassword'));
-    if ($username == null ) {
+    if ($username == null)  {
       $error = true;
       $errormessage .= '<p>Nem megfelelő felhasználónév!</p>';
   } else if ($password== null) {
@@ -16,7 +16,7 @@ if (filter_input(INPUT_POST,
       $errormessage .= '<p>Nem megfelelő Jelszó</p>';
   }
   if ($error) {
-      echo $errormessage;
+      echo $errormessage; 
   } else if($db->login($username, $password)) {
     $_SESSION['login'] = true;
 

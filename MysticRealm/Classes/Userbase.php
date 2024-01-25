@@ -33,6 +33,8 @@ class Userbase {
                 // Incorrect password
                 $_SESSION['username'] = '';
                 $_SESSION['login'] = false;
+                
+                
             }
     
             $result->free_result();
@@ -61,3 +63,5 @@ class Userbase {
         }
     }
 }
+
+
