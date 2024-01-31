@@ -1,26 +1,30 @@
 <?php
-if (filter_input(INPUT_POST,
-                'belepesiAdatok',
-                FILTER_VALIDATE_BOOLEAN,
-                FILTER_NULL_ON_FAILURE)) {
-    //-- A kapott adatok feldolgozása required  
-    $error = false;
-    $errormessage = ""; 
-    $username = htmlspecialchars(filter_input(INPUT_POST, 'username'));
-    $password = htmlspecialchars(filter_input(INPUT_POST, 'InputPassword'));
-    if ($username == null)  {
-      $error = true;
-      $errormessage .= '<p>Nem megfelelő felhasználónév!</p>';
-  } else if ($password== null) {
-      $error = true;
-      $errormessage .= '<p>Nem megfelelő Jelszó</p>';
+if (filter_input(
+  INPUT_POST,
+  'belepesiAdatok',
+  FILTER_VALIDATE_BOOLEAN,
+  FILTER_NULL_ON_FAILURE
+)) {
+  //-- A kapott adatok feldolgozása required  
+  $error = false;
+  $errormessage = "";
+  $username = htmlspecialchars(filter_input(INPUT_POST, 'username'));
+  $password = htmlspecialchars(filter_input(INPUT_POST, 'InputPassword'));
+  if ($username == null) {
+    $error = true;
+    $errormessage .= '<p>Nem megfelelő felhasználónév!</p>';
+  } else if ($password == null) {
+    $error = true;
+    $errormessage .= '<p>Nem megfelelő Jelszó</p>';
   }
   if ($error) {
-      echo $errormessage; 
-  } else if($db->login($username, $password)) {
+    echo $errormessage;
+  } else if ($db->login($username, $password)) {
+    $_SESSION['username'] = $username;
     $_SESSION['login'] = true;
-
-  }
+    header("Location:index.php");
+        
+  } 
 }
 ?>
 <section class="h-100 gradient-form bg-login-img">
@@ -38,14 +42,19 @@ if (filter_input(INPUT_POST,
                 </div>
 
                 <form action="#" method="post">
-
+                  <?php
+                if($db->error)
+                  echo' <div class="alert alert-danger" role="alert">
+                  Invaild username/password, try again!
+                </div>'
+                ?>
                   <div class="form-outline mb-4">
                     <input type="text" id="username" name="username" aria-describedby="emailHelp" class="form-control" required />
                     <label class="form-label" for="username">Username</label>
                   </div>
-               
+
                   <div class="form-outline mb-4">
-                    <input type="password" id="InputPassword"  name="InputPassword" class="form-control" required />
+                    <input type="password" id="InputPassword" name="InputPassword" class="form-control" required />
                     <label class="form-label" for="InputPassword">Password</label>
                   </div>
 
@@ -60,7 +69,7 @@ if (filter_input(INPUT_POST,
                   <div class="d-flex align-items-center justify-content-center">
                     <a href="#"><i class="fa-brands fa-square-facebook fa-bounce icon-font"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram fa-bounce icon-font p-2"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter fa-bounce icon-font" ></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter fa-bounce icon-font"></i></a>
                   </div>
 
                 </form>

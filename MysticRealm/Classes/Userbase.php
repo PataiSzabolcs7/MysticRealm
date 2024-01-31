@@ -4,6 +4,7 @@ class Userbase {
 
     private $db = null;
     public $error = false;
+    public $errormessage="";
 
     public function __construct($host, $username, $password, $db) {
         try {
@@ -27,18 +28,20 @@ class Userbase {
     
             if ($row && password_verify($password, $row['password'])) {
                 // Password is correct
-                $_SESSION['username'] = $row['username'];
-                $_SESSION['login'] = true;
+                
+                return true;
             } else {
                 // Incorrect password
                 $_SESSION['username'] = '';
                 $_SESSION['login'] = false;
                 
-                
+                $this->error=true;
+                $this->errormessage="ez a hiba!";
+                return false; //-- 
             }
     
             $result->free_result();
-            header("Location:index.php");
+           
         }
     
         return false;
