@@ -186,6 +186,11 @@ section {
   background-image: url(../Img/guard.png);
  background-repeat: no-repeat;
 }
+@media(max-width: 1024px) {
+  .background-guard{
+   background-image: none;
+  }
+}
 /*--------------------------------------------------------------
 # News
 --------------------------------------------------------------*/

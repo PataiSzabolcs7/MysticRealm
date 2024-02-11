@@ -28,12 +28,12 @@ class Userbase {
     
             if ($row && password_verify($password, $row['password'])) {
                 // Password is correct
-                
                 return true;
             } else {
                 // Incorrect password
                 $_SESSION['username'] = '';
                 $_SESSION['login'] = false;
+                
                 
                 $this->error=true;
                 $this->errormessage="ez a hiba!";

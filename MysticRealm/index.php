@@ -10,6 +10,7 @@ require_once './Layout/head.php';
 $navbardswitch = filter_input(INPUT_GET, "nav");
 $login_register = filter_input(INPUT_GET, "loginswitch");
 
+
 ?>
 <body>
     <?php
