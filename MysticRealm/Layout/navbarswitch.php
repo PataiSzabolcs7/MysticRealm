@@ -1,10 +1,10 @@
 <?php
     switch($navbardswitch){
         case 'lore':
-            require_once './Page/item.php';
+            require_once './Page/lore.php';
             break;
         case 'game':
-            require_once './Page/item.php';
+            require_once './Page/game.php';
             break;
         case 'items':
             require_once './Page/item.php';

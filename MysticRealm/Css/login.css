@@ -48,8 +48,6 @@ background: linear-gradient(to right,#a5aed9,#818dca,#5e6dbb,#4453a1,#35417e);
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;        
- /*background-image: url(../Img/peakpx.jpg);
- background-repeat: no-repeat;*/
 }
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 
