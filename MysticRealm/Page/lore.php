@@ -1,3 +1,4 @@
+<!--Lore Start-->
 <section class="lore_section">
     <div class="lore_header">
         <h1>Mystic Realm - The Awakening of the Knight</h1>
@@ -22,3 +23,4 @@
         </section>
     </div>
 </section>
+<!--Lore End-->

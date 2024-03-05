@@ -27,6 +27,7 @@ if (filter_input(INPUT_POST, "regisztraciosAdatok", FILTER_VALIDATE_BOOLEAN, FIL
     }
 }
 ?>
+<!--Registration Start-->
 <section class="h-100 gradient-form bg-login-img" >
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
@@ -34,19 +35,15 @@ if (filter_input(INPUT_POST, "regisztraciosAdatok", FILTER_VALIDATE_BOOLEAN, FIL
         <div class="card border border-0 rounded-5 card-background-glasseffect text-white">
           <div class="row g-0">
               <div class="card-body p-md-5 mx-md-4">
-                
                 <div class="text-center">
                   <img src="./Img/logo.png" alt="logo">
                   <h4 class="mt-1 mb-5 pb-1">Mystic Realm</h4>
                 </div>
-
                 <form action="#" method="post">
-
                   <div class="form-outline mb-4">
                     <input type="text" id="username" name="username" aria-describedby="emailHelp" class="form-control" required />
                     <label class="form-label" for="username">Username</label>
                   </div>
-               
                   <div class="form-outline mb-4">
                     <input type="password" id="InputPassword"  name="InputPassword" class="form-control" required/>
                     <label class="form-label" for="InputPassword">Password</label>
@@ -59,16 +56,13 @@ if (filter_input(INPUT_POST, "regisztraciosAdatok", FILTER_VALIDATE_BOOLEAN, FIL
                     <input type="email" id="useremail"  name="useremail" class="form-control"required />
                     <label class="form-label" for="useremail">Emails</label>
                   </div>
-
                   <div class="text-center pt-1 mb-5 pb-1">
                     <button class="btn btn-primary w-50" type="submit" name="regisztraciosAdatok" value="true">Registration</button>
                   </div>
-
                   <div class="d-flex align-items-center justify-content-center pb-4">
                     <p class="mb-0 me-2">Already had account?</p>
                     <a href="index.php?login_register_switch=logins" class="btn btn-primary">Logins</a>
                   </div>
-
                 </form>
              </div>
           </div>
@@ -77,6 +71,9 @@ if (filter_input(INPUT_POST, "regisztraciosAdatok", FILTER_VALIDATE_BOOLEAN, FIL
     </div>
   </div>
 </section>
+<!--Registration End-->
+
+
 <script>
     var passwordInputs = document.querySelectorAll("input[type=password]");
     function validPass(password) {

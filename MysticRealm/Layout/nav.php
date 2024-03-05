@@ -6,10 +6,10 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <ul class="navbar-nav m-2">
                 <?php
                     echo '<li class="nav-item">
-                    <a class="nav-link' . ($navbardswitch == 'home' ? ' active' : ''). '"aria-current="page" href="index.php?nav=home">Home</a>
+                    <a class=" nav-link' . ($navbardswitch == 'home' ? ' active' : ''). '"aria-current="page" href="index.php?nav=home">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,6 +44,7 @@
                         </ul>
                     </li>';
                 ?>
+                
             </ul>
         </div>
     </div>

@@ -1,3 +1,4 @@
+<!--Carousel Start-->
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -23,8 +24,11 @@
     </div>
   </div>
 </div>
+<!--Carousel End-->
 
-<section class="py-5 ">
+
+<!--News Start-->
+<section class="news py-5">
     <div class="container px-5 my-5">
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-8 col-xl-6">
@@ -96,22 +100,25 @@
             </div>
         </div>
 </section>
+<!--News End-->
 
+
+<!--Call-to-Action Start-->
 <section id="call-to-action" class="call-to-action">
-      <div class="container" data-aos="zoom-out">
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h3>Call To Action</h3>
-            <hr class="hr1">
-            <p class="pt-3">You are ready my lord? If yes then you can start your journey here!</p>
-            <a class="cta-btn" href="#">Download</a>
-          </div>
-        </div>
-
+  <div class="container" data-aos="zoom-out">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h3>Call To Action</h3>
+        <hr class="hr1">
+        <p class="pt-3">You are ready my lord? If yes then you can start your journey here!</p>
+        <a class="cta-btn" href="#">Download</a>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+<!--Call-to-Action End-->
 
+<!--About Us Start-->
 <section class="py-3 py-md-5 py-xl-8 bgcolor-1">
   <div class="section-header">
     <h2 class="fw-bold fst-italic">About Us</h2>
@@ -162,7 +169,9 @@
     </div>
   </div>
 </section>
+<!--About Us End-->
 
+<!--Meet Our Team Start-->
 <section class="background-guard">
   <div class="container-xxl py-5">
           <div class="container">
@@ -226,18 +235,17 @@
       </div>
   </div>
 </section>
+<!--Meet Our Team End-->
 
+<!--FAQ Start-->
 <section id="faq" class="faq section-bg bgcolor-1">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h1>F.A.Q</h1>
           <p>Frequently Asked Questions</p>
           <hr class="hr1">
         </div>
-
         <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
-
           <li>
             <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What type of feedback did you seek in beta testing, and how much does that affect the final shape of the game? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq1" class="collapse" data-bs-parent=".faq-list">
@@ -246,7 +254,6 @@
               </p>
             </div>
           </li>
-
           <li>
             <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">What platforms do you plan to develop your games for? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq2" class="collapse" data-bs-parent=".faq-list">
@@ -255,7 +262,6 @@
               </p>
             </div>
           </li>
-
           <li>
             <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What tools do you use during game development? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq3" class="collapse" data-bs-parent=".faq-list">
@@ -264,7 +270,6 @@
               </p>
             </div>
           </li>
-
           <li>
             <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How do you interact with the player community? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq4" class="collapse" data-bs-parent=".faq-list">
@@ -273,7 +278,6 @@
               </p>
             </div>
           </li>
-
           <li>
             <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">How do you handle user feedback and game updates? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq5" class="collapse" data-bs-parent=".faq-list">
@@ -282,7 +286,6 @@
               </p>
             </div>
           </li>
-
           <li>
             <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What games are you currently working on and what is the latest project you are working on? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq6" class="collapse" data-bs-parent=".faq-list">
@@ -291,9 +294,8 @@
               </p>
             </div>
           </li>
-
         </ul>
-
       </div>
 </section>
+<!--FAQ End-->
 

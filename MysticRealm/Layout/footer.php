@@ -1,3 +1,4 @@
+<!--Footer Start-->
 <footer class="text-center text-lg-start text-white bg-dark">
     <div class="container p-4 pb-0"> 
       <section class="">
@@ -47,3 +48,4 @@
       </section>
     </div>
 </footer>
+<!--Registration End-->
