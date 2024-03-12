@@ -110,7 +110,7 @@
       <div class="col-lg-8 text-center">
         <h3>Call To Action</h3>
         <hr class="hr1">
-        <p class="pt-3">You are ready my lord? If yes then you can start your journey here!</p>
+        <p class="pt-3">You are ready to become a knight? If yes then you can start your journey here!</p>
         <a class="cta-btn" href="#">Download</a>
       </div>
     </div>
@@ -118,56 +118,44 @@
 </section>
 <!--Call-to-Action End-->
 
-<!--About Us Start-->
-<section class="py-3 py-md-5 py-xl-8 bgcolor-1">
-  <div class="section-header">
-    <h2 class="fw-bold fst-italic">About Us</h2>
-    <hr class="hr1">
-  </div>
-  <div class="container">
-    <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
-      <div class="col-12 col-lg-6 col-xl-5">
-        <img class="img-fluid rounded" loading="lazy" src="./Img/working.jpg" alt="">
-      </div>
-      <div class="col-12 col-lg-6 col-xl-7">
-        <div class="row justify-content-xl-center">
-          <div class="col-12 col-xl-11">
-            <h2 class="h1 mb-3">Who Are We?</h2>
-            <p class="lead fs-4 text-secondary mb-3">We are a small company that develop games and webs, where creativity meets cutting-edge technology in the realm of gaming!</p>
-            <p class="mb-5">At MysticRealm Studio, we pride ourselves on pushing the boundaries of imagination and technology. From captivating storylines to immersive gameplay, our diverse portfolio spans across genres, ensuring a game for every player. Our commitment to quality and innovation has garnered accolades, with several titles earning critical acclaim and a devoted fan base.</p>
-            <div class="row gy-4 gy-md-0 gx-xxl-5X">
-              <div class="col-12 col-md-6">
-                <div class="d-flex">
-                  <div class="me-4 text-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
-                      <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 class="mb-3">Republic</h4>
-                    <p class="text-secondary mb-0">We are bring back the old time gaming feeling.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6">
-                <div class="d-flex">
-                  <div class="me-4 text-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
-                      <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 class="mb-3">Ideas</h4>
-                    <p class="text-secondary mb-0">We believe in the old times by merging primary with elaborate ideas.</p>
-                  </div>
-                </div>
+<!--About us Start-->
+<section id="about" class="about bgcolor-1">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>About Us
+          <hr class="hr1">
+          </h2>
+          <p>>We are a small company that develop games and webs, where creativity meets cutting-edge technology in the realm of gaming!<</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <h3>Brings your dreams to reality</h3>
+            <img src="./Img/about.jpeg" class="img-fluid rounded-4 mb-4" alt="">
+            <p>At MysticRealm Studio, we pride ourselves on pushing the boundaries of imagination and technology. From captivating storylines to immersive gameplay, our diverse portfolio spans across genres, ensuring a game for every player. Our commitment to quality and innovation has garnered accolades, with several titles earning critical acclaim and a devoted fan base</p>
+            <p>But our expertise doesn't stop there. We're also masters of web development, weaving together stunning visuals and cutting-edge functionality to bring our clients' digital visions to life. Whether it's building interactive websites, dynamic web applications, or engaging e-commerce platforms, we have the skills and the vision to make it happen.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+              Driven by innovation and fueled by a love for all things gaming and web-related, MysticRealm is your ultimate destination for bringing your digital dreams to reality.
+              </p>
+              <ul>
+                <li><i class="fa-solid fa-circle-check" style="color: #74C0FC;"></i> Journey Beyond Boundaries, Unleashing Creativity.</li>
+                <li><i class="fa-solid fa-circle-check" style="color: #74C0FC;"></i> Where Imagination Meets Innovation.</li>
+                <li><i class="fa-solid fa-circle-check" style="color: #74C0FC;"></i> Elevating Gaming, Empowering Web, Designing Dreams, Defining Futures, Where Fantasy Becomes Reality</li>
+              </ul>
+              <p>
+              Join us on this journey, and let's create something truly magical together. Welcome to MysticRealm.
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="./Img/about2.jpg" class="img-fluid rounded-4" alt="">
               </div>
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-  </div>
 </section>
 <!--About Us End-->
 
@@ -180,7 +168,7 @@
                   <hr class=hr2>
               </div>
               <div class="row">
-                  <div class="col-lg-4 col-md-6">
+                  <div class="col-lg-4 col-md-12">
                       <div class="team-item position-relative rounded overflow-hidden">
                           <div class="overflow-hidden">
                               <img class="rounded mx-auto d-block" src="./Img/team-1.jpg" alt="">
@@ -197,7 +185,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-4 col-md-6">
+                  <div class="col-lg-4 col-md-12">
                       <div class="team-item position-relative rounded overflow-hidden">
                           <div class="overflow-hidden">
                               <img class=" img-fluid rounded mx-auto d-block" src="./Img/team-1.jpg" alt="">
@@ -214,7 +202,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-4 col-md-6">
+                  <div class="col-lg-4 col-md-12">
                       <div class="team-item position-relative rounded overflow-hidden">
                           <div class="overflow-hidden">
                               <img class="rounded mx-auto d-block" src="./Img/team-1.jpg" alt="">
