@@ -18,6 +18,9 @@
         case 'logout':
             require_once './Page/logout.php';
             break;
+        case 'contact':
+            require_once './Page/contact.php';
+            break;
         case 'home':
             require_once './Layout/home.php';
             break;
