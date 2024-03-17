@@ -1,31 +1,48 @@
-<!--# Start-->
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/Slimeforest.png" class="d-block w-100" alt="...">
+<!--Monster Start-->
+<section class="monster">
+  <div class="container">
+    <div class="section-header">
+      <h2>Monster <hr class="hr1"></h2>
     </div>
-    <div class="carousel-item">
-      <img src="./img/secondlabel.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 class="h1colors fantasyfamily">Save the world, kill the Demon Lord</h1>
-        <p class="pfamily">This adventure is full of danger. Are you ready?</p>
+    <div class="row">
+      <div class="text-center mb-4"><h1>Boss</h1></div>
+      <div class="col-lg-4">
+        <div class="card rounded-3 monster_card" style="width: 18rem;">
+          <img src="./Img/monster_test.jpg" class=" monster-card-img card-img-top mx-auto d-block" alt="...">
+          <div class="monster-card-killcount">Kill count: 12152</div>
+          <div class="card-body">
+            <h5 class="card-title text-center monster_name">Monster Name:<br> Red Dragon</h5>
+            <p class="card-text text-center monster_hp">HP: 42000-120000❤️</p>
+            <p class="card-text text-center monster_atk">ATK: 17000-39000⚔️</p>
+            <p class="card-text monster_des">Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nesciunt hic</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./img/firstlabel.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 class="h1colors fantasyfamily">Start your adventure today</h1>
-        <p class="pfamily">Fight with many enemys and save the princess!</p>
+      <div class="col-lg-4 ">
+        <div class="card rounded-3 monster_card" style="width: 18rem;">
+          <img src="./Img/monster_test.jpg" class=" monster-card-img card-img-top mx-auto d-block" alt="...">
+          <div class="monster-card-killcount">Kill count: 12152</div>
+          <div class="card-body">
+            <h5 class="card-title text-center monster_name">Monster Name:<br> Red Dragon</h5>
+            <p class="card-text text-center monster_hp">HP: 42000-120000❤️</p>
+            <p class="card-text text-center monster_atk">ATK: 17000-39000⚔️</p>
+            <p class="card-text monster_des">Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nesciunt hic</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card rounded-3 monster_card" style="width: 18rem;">
+          <img src="./Img/monster_test.jpg" class=" monster-card-img card-img-top mx-auto d-block" alt="...">
+          <div class="monster-card-killcount">Kill count: 12152</div>
+          <div class="card-body">
+            <h5 class="card-title text-center monster_name">Monster Name:<br> Red Dragon</h5>
+            <p class="card-text text-center monster_hp">HP: 42000-120000❤️</p>
+            <p class="card-text text-center monster_atk">ATK: 17000-39000⚔️</p>
+            <p class="card-text monster_des">Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nesciunt hic</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="card" style="width: 18rem;">
-  <img src="./Img/about2.jpg" class=" monster-card-img card-img-top" alt="...">
-  <div class="monster-card-killcount">4213</div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+</section>
+<!--Monster end-->
