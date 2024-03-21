@@ -4,8 +4,7 @@
   <div class="container" data-aos="zoom-out">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h1 class="monster-h1">Monster</h1>
-        <p class="monster-p1">"Think twice,before move"</p>
+        <h1 class="monster-h1">Monster</h1>       
       </div>
     </div>
   </div>

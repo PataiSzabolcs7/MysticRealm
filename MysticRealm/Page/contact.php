@@ -1,10 +1,18 @@
+<!--Call-to-Action Start-->
+<section id="call-to-action3" class="call-to-action3">
+  <div class="container" data-aos="zoom-out">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h1 class="contact-h2">Contact Us</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Call-to-Action End-->
+
 <!-- Contact Start -->
 <div class="container-fluid py-5">
         <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h1 class="fw-bold text-primary text-uppercase mb-4">Contact Us</h1>
-                <h5 class="mb-0">If You Have Any Query, Feel Free To Contact Us</h5>
-            </div>
             <div class="row mb-5">
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">

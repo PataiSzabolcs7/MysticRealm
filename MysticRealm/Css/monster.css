@@ -104,7 +104,7 @@
     0% {left: 0; } 50% { left : 85px; } 100% { left: 0; }
 }
 .monster-h1{
-    font-family: 'Monster Chiller', sans-serif;
+    font-family: 'File Deletion', sans-serif;
     background: #1791DD;
     background: linear-gradient(to top right, #1791DD 35%, #FFFFFF 100%);
     -webkit-background-clip: text;
@@ -113,7 +113,7 @@
     letter-spacing: 10px;
 }
 .monster-p1{
-    font-family: 'Monster Chiller', sans-serif;
+    font-family: 'File Deletion', sans-serif;
     background: #1791DD;
     background: linear-gradient(to top right, #1791DD 35%, #FFFFFF 100%);
     -webkit-background-clip: text;
