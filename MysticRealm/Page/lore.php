@@ -1,7 +1,8 @@
+
 <!--Lore Start-->
 <section class="lore_section">
     <div class="lore_header">
-        <h1>Mystic Realm - The Awakening of the Knight</h1>
+        <h1 class="h1-own-family">Mystic Realm - The Awakening of the Knight</h1>
     </div>
     <div class="lore_main">
         <section class="story">

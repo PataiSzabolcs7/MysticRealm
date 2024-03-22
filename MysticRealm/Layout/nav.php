@@ -42,12 +42,11 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="nav-link' . ($navbardswitch == 'logout' ? ' active' : ''). '"aria-current="page" href="index.php?nav=logout">Logout</a>
+                                <a class="dropdown-item' . ($navbardswitch == 'logout' ? ' active' : ''). '"aria-current="page" href="index.php?nav=logout">Logout</a>
                             </li>
                         </ul>
                     </li>';
                 ?>
-                
             </ul>
         </div>
     </div>

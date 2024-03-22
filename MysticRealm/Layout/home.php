@@ -33,7 +33,7 @@
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-8 col-xl-6">
                 <div class="text-center">
-                    <h2 class="fw-bolder">News</h2>
+                    <h2 class="fw-bolder h1-own-family">News</h2>
                     <hr class="hr2">
                     <p class="lead fw-normal text-muted mb-5">Fresh and new news about the progress in the company </p>
                 </div>
@@ -108,7 +108,7 @@
   <div class="container" data-aos="zoom-out">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h3>Call To Action</h3>
+        <h3 class="h1-own-family">Call To Action</h3>
         <hr class="hr1">
         <p class="pt-3">You are ready to become a knight? If yes then you can start your journey here!</p>
         <a class="cta-btn" href="#">Download</a>
@@ -122,7 +122,7 @@
 <section id="about" class="about bgcolor-1">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>About Us
+          <h2 class="h1-own-family">About Us
           <hr class="hr1">
           </h2>
           <p>>We are a small company that develop games and webs, where creativity meets cutting-edge technology in the realm of gaming!<</p>
@@ -164,8 +164,8 @@
   <div class="container-xxl py-5">
           <div class="container">
               <div class="text-center mx-auto mb-5 wow fadeInUp">
-                  <h1 class="display-6 mb-5 fw-bold fst-italic">Meet Our Teams</h1>
-                  <hr class=hr2>
+                  <h1 class="display-6 mb-5 fw-bold h1-own-family">Meet Our Teams</h1>
+                  <hr class=hr1>
               </div>
               <div class="row">
                   <div class="col-lg-4 col-md-12">
@@ -229,7 +229,7 @@
 <section id="faq" class="faq section-bg bgcolor-1">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h1>F.A.Q</h1>
+          <h1 class="h1-own-family mb-4">F.A.Q</h1>
           <p>Frequently Asked Questions</p>
           <hr class="hr1">
         </div>

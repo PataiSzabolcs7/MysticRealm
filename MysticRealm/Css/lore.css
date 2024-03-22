@@ -12,21 +12,21 @@
     animation-direction: alternate; 
     margin: 0;
     padding: 0;
-    }
+}
     
-    .lore_header {
+.lore_header {
     color: black;
     text-align: center;
     padding: 20px 0;
-    }
+}
     
-    .lore_main {
+.lore_main {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
-    }
+}
     
-    .story {
+.story {
     border-radius: 16px;
     padding: 20px;
     border-radius: 16px;
@@ -36,4 +36,4 @@
     border: 1px solid rgba(255, 255, 255, 0.26);
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: large;
-    }
+}

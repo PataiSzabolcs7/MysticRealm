@@ -5,16 +5,24 @@
   --font-secondary: "Poppins", sans-serif;
 }
 
+.h1-own-family{
+  font-family: 'EPISODE I', sans-serif;
+}
+
 .fantasyfamily{
     font-family:fantasy;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     font-size: 55px;
+    font-family: 'EPISODE I', sans-serif;
+    
 }
 .pfamily{
     font-family: cursive;
     font-style: bold;
     font-size: 25.5px;
+    font-family: 'Lugrasimo', sans-serif;
+                                                
 }
 .h1colors{
   background: -webkit-linear-gradient(#eee, #333);
@@ -32,12 +40,14 @@
 .hr1{
   width:5%;
  margin: auto;
+ margin-top: 15px;
   color: rgb(0, 0, 255);
   border: 2px solid
 }
 .hr2{
   width:15%;
  margin: auto;
+ margin-top: 15px;
   color: rgb(0, 0, 255);
   border: 2px solid
 }
