@@ -103,25 +103,6 @@
 @-webkit-keyframes section-title-run-sm {
     0% {left: 0; } 50% { left : 85px; } 100% { left: 0; }
 }
-.monster-h1{
-    font-family: 'File Deletion', sans-serif;
-    background: #1791DD;
-    background: linear-gradient(to top right, #1791DD 35%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 125px;
-    letter-spacing: 10px;
-}
-.monster-p1{
-    font-family: 'File Deletion', sans-serif;
-    background: #1791DD;
-    background: linear-gradient(to top right, #1791DD 35%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 35px;
-    font-style: italic;
-    letter-spacing: 5px;
-}
 
 /*--------------------------------------------------------------
 # Call To Action Section
@@ -162,4 +143,60 @@
     text-decoration: none;
     border: 2px solid #426ee9;
     color: #fff;
-  }
+}
+.nft{
+    user-select:none;
+    max-width: 300px;
+    margin: 5rem auto;
+    border: 1px solid #ffffff22;
+    background-color: #282c34;
+    background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+    box-shadow: 0 7px 20px 5px #00000088;
+    border-radius: .7rem;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    overflow: hidden;
+    transition: .5s all;
+
+    ::before{
+        position: fixed;
+        content: "";
+        box-shadow: 0 0 100px 40px #ffffff08;
+        top: -10%;
+        left: -100%;
+        transform: rotate(-45deg);
+        height: 60rem;
+        transition: .7s all;
+      }
+      &:hover{
+        border: 1px solid #ffffff44;
+        box-shadow: 0 7px 50px 10px #000000aa;
+        transform: scale(1.015);
+        filter: brightness(1.3);
+        ::before{
+          filter: brightness(.5);
+          top: -100%;
+          left: 200%;
+        }
+    }
+}
+.mains{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+}
+.tokenImage{
+      border-radius: .5rem;
+      max-width: 100%;
+      height: 250px;
+    
+}
+.monster-h1{
+    color: white;
+    font-family: 'EPISODE I', sans-serif;
+    font-size: 20px
+}
+.monster_des{
+    color: white;
+}
