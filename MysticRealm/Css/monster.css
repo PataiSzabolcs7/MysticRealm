@@ -200,3 +200,21 @@
 .monster_des{
     color: white;
 }
+.nft2{
+    user-select:none;
+    color: white;
+    width: 500px;
+    margin: 5rem auto;
+    text-align: center;
+    border: 1px solid #ffffff22;
+    background-color: #282c34;
+    background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+    box-shadow: 0 7px 20px 5px #00000088;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    overflow: hidden;
+    transition: .5s all; 
+}
+.text-center{
+    font-family: 'EPISODE I', sans-serif;
+}
