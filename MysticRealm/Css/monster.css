@@ -204,6 +204,7 @@
     user-select:none;
     color: white;
     width: 500px;
+    padding: 10px;
     margin: 5rem auto;
     text-align: center;
     border: 1px solid #ffffff22;
@@ -213,8 +214,7 @@
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
     overflow: hidden;
+    border-radius: .7rem;
     transition: .5s all; 
 }
-.text-center{
-    font-family: 'EPISODE I', sans-serif;
-}
+

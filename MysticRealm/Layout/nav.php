@@ -38,7 +38,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="./Img/32x32icon.png" class="rounded-circle">
+                            Üdvözöljük '.$_SESSION['username'].'! <img src="./Img/32x32icon.png" class="rounded-circle">
                         </a>
                         <ul class="dropdown-menu">
                             <li>

@@ -28,7 +28,7 @@ class Userbase {
     
             if ($row && password_verify($password, $row['password'])) {
                 // Password is correct
-                return true;
+                return $row;
             } else {
                 // Incorrect password
                 $_SESSION['username'] = '';
