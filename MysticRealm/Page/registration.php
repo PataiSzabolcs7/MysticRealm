@@ -23,6 +23,7 @@ if (filter_input(INPUT_POST, "regisztraciosAdatok", FILTER_VALIDATE_BOOLEAN, FIL
         echo $errormessage;
     } else {
         $db->register($username, $pass1, $email);
+        $_SESSION['username'] = $username;
         header("Location:index.php");
     }
 }

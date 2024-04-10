@@ -20,6 +20,7 @@ if (filter_input(
   if ($error) {
     echo $errormessage;
   } else if ($db->login($username, $password)) {
+    $_SESSION['userid'] = $userid;
     $_SESSION['username'] = $username;
     $_SESSION['login'] = true;
     header("Location:index.php");

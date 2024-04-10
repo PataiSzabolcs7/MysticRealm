@@ -47,6 +47,7 @@
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li>
                         <a class="dropdown-item<?php echo ($navbardswitch == 'logout' ? ' active' : ''); ?>" aria-current="page" href="index.php?nav=logout">Logout</a>
+                        <a class="dropdown-item<?php echo ($navbardswitch == 'settings' ? ' active' : ''); ?>" aria-current="page" href="index.php?nav=settings">Settings</a>
                     </li>
                 </ul>
             </li>

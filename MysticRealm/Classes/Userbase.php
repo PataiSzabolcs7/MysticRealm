@@ -54,7 +54,7 @@ class Userbase {
         $stmt->bind_param("sss", $username, $password, $email);
         try {
             if ($stmt->execute()) {
-                
+                $_SESSION['username'] = $username;
                 $_SESSION['login'] = true;
                 
             } else {
@@ -63,6 +63,37 @@ class Userbase {
             }
         } catch (Exception $exc) {
             echo $exc->getTraceAsString();
+        }
+    }
+    
+    public function changePassword($username, $oldPassword, $newPassword) {
+        // Először ellenőrizzük, hogy a felhasználó létezik-e és helyes-e a jelenlegi jelszava
+        $stmt = $this->db->prepare('SELECT * FROM users WHERE username = ?');
+        $stmt->bind_param("s", $username);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $row = $result->fetch_assoc();
+    
+        if ($row && password_verify($oldPassword, $row['password'])) {
+            // Jelenlegi jelszó helyes, folytassuk a jelszó módosításával
+            $newHashedPassword = password_hash($newPassword, PASSWORD_DEFAULT);
+            $updateStmt = $this->db->prepare('UPDATE users SET password = ? WHERE username = ?');
+            $updateStmt->bind_param("ss", $newHashedPassword, $username);
+    
+            if ($updateStmt->execute()) {
+                // Jelszó módosítása sikeres
+                return true;
+            } else {
+                // Jelszó módosítása sikertelen
+                $this->error = true;
+                $this->errormessage = "Jelszó módosítása sikertelen!";
+                return false;
+            }
+        } else {
+            // Rossz jelenlegi jelszó
+            $this->error = true;
+            $this->errormessage = "Rossz jelenlegi jelszó!";
+            return false;
         }
     }
 }

@@ -24,6 +24,9 @@
         case 'home':
             require_once './Layout/home.php';
             break;
+        case 'settings':
+            require_once './Page/settings.php';
+            break;
         default:
         require_once './Layout/home.php';
     }
