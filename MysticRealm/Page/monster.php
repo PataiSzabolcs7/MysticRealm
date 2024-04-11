@@ -65,7 +65,7 @@
         <div class="col-lg-4">
         <div class="nft">
               <div class='mains'>
-                <img class='tokenImage' src="./Img/notfound.jpg"/>
+                <img class='tokenImage' src="./Img/brownslime.png"/>
                 <h1 class="monster-h1">Monster name:</h1>
                 <h1 class="monster-h1 text-center">Brown Slime</h1>
                 <p class="card-text text-center monster_hp">HP: 100000❤️</p>
