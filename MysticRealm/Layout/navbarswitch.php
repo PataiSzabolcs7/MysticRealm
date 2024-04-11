@@ -3,17 +3,11 @@
         case 'lore':
             require_once './Page/lore.php';
             break;
-        case 'game':
-            require_once './Page/game.php';
-            break;
-        case 'items':
-            require_once './Page/item.php';
+        case 'hero':
+            require_once './Page/hero.php';
             break;
         case 'monster':
             require_once './Page/monster.php';
-            break;
-        case 'skills':
-            require_once './Page/skills.php';
             break;
         case 'logout':
             require_once './Page/logout.php';

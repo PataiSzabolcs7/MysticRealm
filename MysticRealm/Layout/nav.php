@@ -20,17 +20,12 @@
                                 <a class="dropdown-item' . ($navbardswitch == 'lore' ? ' active' : '') . '"aria-current="page" href="index.php?nav=lore">Lore</a>
                             </li>
                             <li>
-                                <a class="dropdown-item' . ($navbardswitch == 'game' ? ' active' : '') . '"aria-current="page" href="index.php?nav=game">Game</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item' . ($navbardswitch == 'items' ? ' active' : '') . '"aria-current="page" href="index.php?nav=items">Items</a>
+                                <a class="dropdown-item' . ($navbardswitch == 'hero' ? ' active' : '') . '"aria-current="page" href="index.php?nav=hero">Hero</a>
                             </li>
                             <li>
                                 <a class="dropdown-item' . ($navbardswitch == 'monster' ? ' active' : '') . '"aria-current="page" href="index.php?nav=monster">Monster</a>
                             </li>
-                            <li>
-                                <a class="dropdown-item' . ($navbardswitch == 'skills' ? ' active' : '') . '"aria-current="page" href="index.php?nav=skills">Skills</a>
-                            </li>
+                            
                         </ul>
                     </li>
                     <li class="nav-item">
