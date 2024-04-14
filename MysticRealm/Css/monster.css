@@ -30,21 +30,12 @@
     font-weight: bold;
 }
 .monster_atk{
-    color: red;
+    color: rgb(221, 255, 0);
     font-weight: bold;
 }
 .monster_name{
     font-weight: bold;
 }
-.monster_card{
-    /*background: rgba(11, 11, 11, 0.84);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(14.1px);
-    -webkit-backdrop-filter: blur(14.1px);
-    */
-}
-
 .section-title::before {
     position: absolute;
     content: "";
@@ -197,9 +188,6 @@
     color: white;
     font-family: 'EPISODE I', sans-serif;
     font-size: 20px
-}
-.monster_des{
-    color: white;
 }
 .nft2{
     user-select:none;

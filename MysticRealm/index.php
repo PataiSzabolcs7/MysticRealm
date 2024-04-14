@@ -28,6 +28,6 @@ $login_register = filter_input(INPUT_GET, "loginswitch");
 
     }
     ?>
-    <script src="./Js/google-map.js"></script>
+    <script src="flip.js"></script>
 </body>
 </html>
