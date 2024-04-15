@@ -5,7 +5,7 @@ class Userbase
 
     private $db = null;
     public $error = false;
-    public $errormessage = "";
+    public $success = false;
 
     public function __construct($host, $username, $password, $db)
     {
@@ -39,11 +39,9 @@ class Userbase
 
 
                 $this->error = true;
-                $this->errormessage = "ez a hiba!";
                 return false; //-- 
             }
 
-            $result->free_result();
         }
 
         return false;
@@ -87,11 +85,11 @@ class Userbase
 
             if ($updateStmt->execute()) {
                 // Jelszó módosítása sikeres
+                $this->success = true;
                 return true;
             } else {
                 // Jelszó módosítása sikertelen
                 $this->error = true;
-                $this->errormessage = "Jelszó módosítása sikertelen!";
                 return false;
             }
         

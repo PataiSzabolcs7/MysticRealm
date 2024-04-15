@@ -23,14 +23,21 @@ if (filter_input(INPUT_POST, "submit", FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_F
 } else {
 
 ?>
-
+<?php if($db->error){
+    echo' <div class="alert alert-danger" role="alert">
+            Error in password change, Please try again!
+            </div>';}
+            else if($db->success){
+            echo'<div class="alert alert-succes" role="alert">
+            Password Change complete!
+            </div>';} ?>
     <section class="settings">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="form-container">
                         <h2>Password Change</h2>
-                        <h1><?php echo $errorMessage; ?></h1>
+                        
                         <form id="passwordForm" method="post">
                             <div class="form-group">
                                 <label for="currentPassword">Current Password</label>
