@@ -13,24 +13,25 @@ if (filter_input(INPUT_POST, "submit", FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_F
     } elseif ($db->valid_password($currentPassword)) {
         # csere indulhat
         if ($db->changePassword($newPassword)) {
-            # code...
-            $goodMessage="Sikeres jelszó változtatás!";
+            echo' 
+            <div class="container d-flex justify-content-center">
+                <div class="alert alert-danger" role="alert">
+                Error in password change, Please try again!
+                </div>
+            </div> ';
         } else {
-            $errorMessage = "Sikertelen jelszóváltoztatás! Próbálja újra.";
+            echo' 
+            <div class="container d-flex justify-content-center">
+                <div class="alert alert-danger" role="alert">
+                Error in password change, Please try again!
+                </div>
+            </div> ';
         }
         exit();
     }
 } else {
 
 ?>
-<?php if($db->error){
-    echo' <div class="alert alert-danger" role="alert">
-            Error in password change, Please try again!
-            </div>';}
-            else if($db->success){
-            echo'<div class="alert alert-succes" role="alert">
-            Password Change complete!
-            </div>';} ?>
     <section class="settings">
         <div class="container">
             <div class="row justify-content-center">

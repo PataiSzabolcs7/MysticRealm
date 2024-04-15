@@ -1,20 +1,4 @@
-
-
-.monster{
-   /* background-image: url(../Img/monster_background.jpg);
-    background-size:cover;
-    -webkit-animation: slidein 100s;
-    animation: slidein 100s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate; 
-    */       
-}
-
-  .monster-card-killcount{
+.monster-card-killcount{
     font-size: 13px;
       color: #ffffff;
       background: #e53637;
