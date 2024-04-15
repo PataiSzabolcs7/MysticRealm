@@ -30,11 +30,14 @@
     font-weight: bold;
 }
 .monster_atk{
-    color: rgb(221, 255, 0);
+    color: rgb(255, 0, 0);
     font-weight: bold;
 }
 .monster_name{
     font-weight: bold;
+}
+.monster_des{
+    color:white;
 }
 .section-title::before {
     position: absolute;
