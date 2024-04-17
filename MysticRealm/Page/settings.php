@@ -16,7 +16,7 @@ if (filter_input(INPUT_POST, "submit", FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_F
             echo' 
             <div class="container d-flex justify-content-center">
                 <div class="alert alert-danger" role="alert">
-                Error in password change, Please try again!
+                Password Change ist sucess!
                 </div>
             </div> ';
         } else {
