@@ -471,4 +471,9 @@ h6,
 
 .nodesign{
   text-decoration: none;
+  color:white;
+}
+.nodesign:hover{
+  text-decoration: none;
+  color:blue;
 }

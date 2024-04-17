@@ -15,7 +15,7 @@
             </div>
           </li>
           <li>
-            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Information Collection:<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Information Collection<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq2" class="collapse" data-bs-parent=".faq-list">
               <p>
               We collect certain personal information, such as your name, email address, and location, to enhance your dining experience. This data is voluntarily provided by you when you create an account or interact with our platform.
@@ -23,7 +23,7 @@
             </div>
           </li>
           <li>
-            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Use of Information:<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Use of Information<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq3" class="collapse" data-bs-parent=".faq-list">
               <p>
               The information we collect is used to personalize your dining recommendations, improve our services, and keep you informed about the latest updates and offers. Rest assured, we will never share or sell your personal information to third parties without your consent.
@@ -31,7 +31,7 @@
             </div>
           </li>
           <li>
-            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Cookies and Tracking: <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Cookies and Tracking <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq4" class="collapse" data-bs-parent=".faq-list">
               <p>
               MysticRealm uses cookies to enhance user experience and provide personalized content. These cookies may track your browsing behavior on our platform. You can manage your cookie preferences through your browser settings.
@@ -39,7 +39,7 @@
             </div>
           </li>
           <li>
-            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Data Security:<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Data Security<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq5" class="collapse" data-bs-parent=".faq-list">
               <p>
               We employ industry-standard security measures to protect your data from unauthorized access, alteration, or disclosure. However, it is essential to understand that no online platform can guarantee 100% security, and you use MysticRealm at your own risk. 
@@ -47,7 +47,7 @@
             </div>
           </li>
           <li>
-            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Third-Party Links: <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Third-Party Links <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
             <div id="faq6" class="collapse" data-bs-parent=".faq-list">
               <p>
               MysticRealm may contain links to external websites and services. We do not have control over the privacy practices of these third-party sites. Please review their respective privacy policies before providing any personal information.
