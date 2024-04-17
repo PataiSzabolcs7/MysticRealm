@@ -21,6 +21,9 @@
         case 'settings':
             require_once './Page/settings.php';
             break;
+        case 'privacy':
+            require_once './Layout/privacy.php';
+            break;
         default:
         require_once './Layout/home.php';
     }

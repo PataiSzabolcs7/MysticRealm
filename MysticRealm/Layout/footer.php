@@ -15,6 +15,7 @@
             <p><i class="fas fa-home mr-3"></i> Debrecen,  Burgundia 4024, HU</p>
             <p><i class="fas fa-envelope mr-3"></i>MysticRealm@company.com</p>
             <p><i class="fas fa-phone mr-3"></i> +36 70 77 55 289</p>
+            <a class="nodesign"<?php echo ($navbardswitch == 'privacy' ? '' : '');?> href="index.php?nav=privacy"><i class="fa-solid fa-scale-balanced"></i> Privacy Policy</a>
           </div>
         </div>
       </section>
