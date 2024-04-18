@@ -69,9 +69,9 @@ if (filter_input(
                     <a href="index.php?loginswitch=register" class="btn btn-primary">Create new</a>
                   </div>
                   <div class="d-flex align-items-center justify-content-center">
-                    <a href="#"><i class="fa-brands fa-square-facebook fa-bounce icon-font"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram fa-bounce icon-font p-2"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter fa-bounce icon-font"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-bounce icon-font"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-bounce icon-font p-2"></i></a>
+                    <a target="_blank" href="https://twitter.com/?lang=hu"><i class="fa-brands fa-x-twitter fa-bounce icon-font"></i></a>
                   </div>
 
                 </form>

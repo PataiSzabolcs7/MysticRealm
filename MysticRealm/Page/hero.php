@@ -9,10 +9,10 @@
                     <div class='mains'> 
                         <h1 class="monster-h1 text-center pb-2">Knight</h1>
                         <img class='tokenImage mb-3' src="./Img/knighthero.png"/>
-                        <p class="card-text  monster_hp">Base HP: 150 ❤️</p>
-                        <p class="card-text  monster_atk">Base ATK: 10 ⚔️</p>
-                        <p class="card-text  hero_crit">Base Crit Rate: 5% ⚔️</p>
-                        <p class="card-text  hero_crit">Base Crit DMG: 50% ⚔️</p>
+                        <p class="card-text  monster_hp">Base HP: 110 ❤️</p>
+                        <p class="card-text  monster_atk">Base ATK: 11 ⚔️</p>
+                        <p class="card-text  hero_crit">Base Crit Rate: 10% ⚔️</p>
+                        <p class="card-text  hero_crit">Base Crit DMG: 10% ⚔️</p>
                         <p class="card-text  hero_skill">Unqiue Skill: Block</p>
                         <p class="card-text hero_des">Story: Sir <?php echo $_SESSION['username']; ?> was not just any knight; he was the champion of King Aldric, ruler of Elysium.</p>
                     </div>
@@ -23,10 +23,10 @@
                     <div class='mains'>
                         <h1 class="monster-h1 text-center pb-2">Archer</h1>
                         <img class='tokenImage mb-3' src="./Img/archerhero.png"/>
-                        <p class="card-text  monster_hp">Base HP: 50 ❤️</p>
-                        <p class="card-text  monster_atk">Base ATK: 20 ⚔️</p>
+                        <p class="card-text  monster_hp">Base HP: 55 ❤️</p>
+                        <p class="card-text  monster_atk">Base ATK: 22 ⚔️</p>
                         <p class="card-text  hero_crit">Base Crit Rate: 10% ⚔️</p>
-                        <p class="card-text  hero_crit">Base Crit DMG: 75% ⚔️</p>
+                        <p class="card-text  hero_crit">Base Crit DMG: 10% ⚔️</p>
                         <p class="card-text  hero_skill">Unqiue Skill: Rapid Fire</p>
                         <p class="card-text hero_des">Story: In the forests of Mystic Realm, where ancient trees whisper secrets of times long past, there lived a skilled archer named <?php echo $_SESSION['username']; ?></p>
                     </div>

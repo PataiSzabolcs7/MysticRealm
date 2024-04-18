@@ -178,9 +178,9 @@
                               <p class="text-primary">Web Desinger</p>
                               <hr class=hr2>
                               <div class="team-social text-center">
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-square-facebook icon-font"></i></a>
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-instagram icon-font"></i></a>
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-x-twitter icon-font"></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://www.facebook.com/szabolcs.patai.7/"><i class="fa-brands fa-square-facebook icon-font"></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram icon-font"></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://twitter.com/?lang=hu"><i class="fa-brands fa-x-twitter icon-font"></i></a>
                               </div>
                           </div>
                       </div>
@@ -195,9 +195,9 @@
                               <p class="text-primary">Game Developers</p>
                               <hr class=hr2>
                               <div class="team-social text-center">
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-square-facebook  icon-font " ></i></a>
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-instagram icon-font"></i></a>
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-x-twitter icon-font"></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://www.facebook.com/zsolt.szilagyi.102/"><i class="fa-brands fa-square-facebook  icon-font " ></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://www.instagram.com/zsotya2003/"><i class="fa-brands fa-instagram icon-font"></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://twitter.com/Sz_Zsotya"><i class="fa-brands fa-x-twitter icon-font"></i></a>
                               </div>
                           </div>
                       </div>
@@ -212,9 +212,9 @@
                               <p class="text-primary">Game Developers</p>
                               <hr class=hr2>
                               <div class="team-social text-center">
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-square-facebook  icon-font"></i></a>
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-instagram icon-font"></i></a>
-                                  <a class="btn btn-square" href=""><i class="fa-brands fa-x-twitter icon-font"></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://www.facebook.com/profile.php?id=100014423497389"><i class="fa-brands fa-square-facebook  icon-font"></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://www.instagram.com/minden_patrik_nev_foglalt/?next=%2F"><i class="fa-brands fa-instagram icon-font"></i></a>
+                                  <a class="btn btn-square" target="_blank" href="https://twitter.com/?lang=hu"><i class="fa-brands fa-x-twitter icon-font"></i></a>
                             </div>
                        </div>
                   </div>

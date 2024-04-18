@@ -11,8 +11,8 @@
                 <img class='tokenImage' src="./Img/Executioner.png"/>
                 <h1 class="monster-h1">Monster name:</h1>
                 <h1 class="monster-h1 text-center">Executioner</h1>
-                <p class="card-text text-center monster_hp">HP: 1e+07❤️</p>
-                <p class="card-text text-center monster_atk">ATK: 1000⚔️</p>
+                <p class="card-text text-center monster_hp">HP: 500000❤️</p>
+                <p class="card-text text-center monster_atk">ATK: 500⚔️</p>
                 <p class="card-text text-center monster_atk">Projectile Skill: 500⚔️</p>
                 <p class="card-text monster_des">Description: In the dark, unforgiving realm of Erathia, there existed a figure feared by all who dwelled within its shadowed borders - the Executioner.</p>
               </div>
@@ -56,8 +56,8 @@
                 <img class='tokenImage' src="./Img/skeletonking.png"/>
                 <h1 class="monster-h1">Monster name:</h1>
                 <h1 class="monster-h1 text-center">Skeleton King</h1>
-                <p class="card-text text-center monster_hp">HP: 1000000❤️</p>
-                <p class="card-text text-center monster_atk">ATK: 400⚔️</p>
+                <p class="card-text text-center monster_hp">HP: 200000❤️</p>
+                <p class="card-text text-center monster_atk">ATK: 300⚔️</p>
                 <p class="card-text monster_des">Description: In the heart of a desolate wasteland, where the bones of fallen warriors lay scattered like forgotten relics, there ruled a monarch of death and decay: the Skeleton King. </p>
               </div>
             </div>
@@ -101,7 +101,7 @@
                 <img class='tokenImage' src="./Img/slime.png"/>
                 <h1 class="monster-h1">Monster name:</h1>
                 <h1 class="monster-h1 text-center">Slime</h1>
-                <p class="card-text text-center monster_hp">HP: 50-9600❤️</p>
+                <p class="card-text text-center monster_hp">HP: 50-2400❤️</p>
                 <p class="card-text text-center monster_atk">ATK: 10-1200⚔️</p>
                 <p class="card-text monster_des">Description: Unraveling the mysteries of the natural world, in the mystical land of Everglow there was a forest, what called The Slime Forest </p>
               </div>
@@ -113,7 +113,7 @@
                 <img class='tokenImage' src="./Img/skeleton.png"/>
                 <h1 class="monster-h1">Monster name:</h1>
                 <h1 class="monster-h1 text-center">Skeleton</h1>
-                <p class="card-text text-center monster_hp">HP: 2000-384000❤️</p>
+                <p class="card-text text-center monster_hp">HP: 1000-12000❤️</p>
                 <p class="card-text text-center monster_atk">ATK: 200-24000⚔️</p>
                 <p class="card-text monster_des">Description: Skeleton is something special within. Maked a tiny crack in the wall leading to a hidden corridor that led to a forgotten treasure chamber.</p>
               </div>

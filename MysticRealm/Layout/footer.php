@@ -32,16 +32,16 @@
           </div>
 
           <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-            <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
+            <a class="btn btn-outline-light btn-floating m-1 text-white" target="_blank" href="https://www.facebook.com/" role="button">
                 <i class="fab fa-square-facebook"></i>
             </a>
-            <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
+            <a class="btn btn-outline-light btn-floating m-1 text-white" target="_blank" href="https://twitter.com/?lang=hu" role="button">
                 <i class="fab fa-x-twitter"></i>
             </a>
-            <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
+            <a class="btn btn-outline-light btn-floating m-1 text-white" target="_blank" href="https://discord.com/" role="button">
                 <i class="fa-brands fa-discord"></i>
             </a>
-            <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
+            <a class="btn btn-outline-light btn-floating m-1 text-white" target="_blank" href="https://www.instagram.com/" role="button">
                <i class="fab fa-instagram"></i>
             </a>
           </div>
