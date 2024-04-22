@@ -1,7 +1,7 @@
 <?php
 
-$filepath="./gamefile.rar";;
-$filename="gamefile.rar";
+$filepath="./gamefile.exe";;
+$filename="gamefile.exe";
 
 downloadFile($filename,$filepath);
 
@@ -9,7 +9,7 @@ downloadFile($filename,$filepath);
 function downloadFile($filename,$filepath)
 {
 
-header("Content-type: application/rar"); // instad of pdf use others... for text 
+header("Content-type: application/exe"); // instad of pdf use others... for text 
     header("Content-disposition: attachment; filename=".$filename); 
 header("Content-Length: " . filesize($filepath));
    	header("Pragma: no-cache"); 

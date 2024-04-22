@@ -15,8 +15,8 @@ if (filter_input(INPUT_POST, "submit", FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_F
         if ($db->changePassword($newPassword)) {
             echo' 
             <div class="container d-flex justify-content-center">
-                <div class="alert alert-danger" role="alert">
-                Password Change ist sucess!
+                <div class="alert alert-success" role="alert">
+                Password Change is success!
                 </div>
             </div> ';
         } else {

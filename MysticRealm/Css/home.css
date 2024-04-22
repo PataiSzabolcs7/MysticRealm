@@ -10,20 +10,30 @@
 }
 
 .fantasyfamily{
-    font-family:fantasy;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    font-size: 55px;
+    font-size: 44px;
     font-family: 'EPISODE I', sans-serif;
     
 }
-.pfamily{
-    font-family: cursive;
-    font-style: bold;
-    font-size: 25.5px;
-    font-family: 'Lugrasimo', sans-serif;
-                                                
+@media (max-width: 1024px) {
+  .fantasyfamily {
+    -webkit-text-stroke-width: none;
+    font-size: 22px;
+  }
 }
+
+@media (max-width: 1024px) {
+  .pfamily{
+    font-size: 14px;                                         
+  }
+}
+.pfamily{
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'Lugrasimo', sans-serif;                                                
+}
+
 .h1colors{
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
