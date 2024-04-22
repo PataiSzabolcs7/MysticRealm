@@ -24,6 +24,9 @@
         case 'privacy':
             require_once './Layout/privacy.php';
             break;
+        case 'download':
+            require_once './Page/download.php';
+            break;
         default:
         require_once './Layout/home.php';
     }

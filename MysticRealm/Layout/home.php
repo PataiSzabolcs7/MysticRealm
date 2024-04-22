@@ -111,7 +111,7 @@
         <h3 class="h1-own-family">Call To Action</h3>
         <hr class="hr1">
         <p class="pt-3">You are ready to become a knight? If yes then you can start your journey here!</p>
-        <a class="cta-btn" href="#">Download</a>
+        <a class="cta-btn"  href="./Page/download.php">Download</a>
       </div>
     </div>
   </div>
